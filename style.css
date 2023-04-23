@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    font-family: 'Oswald';
+    padding: 0;
+    margin: 0;
+    background-color: #15161B;
+}
+
+header {
+    width: 100%;
+    background-color: #15161B;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+span {
+    color: #1A7993;
+}
+
+.primeira-sessao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 120px;
+}
+
+.foto-casal-1 {
+    width: 600;
+    height: 300px;
+    border: 3px solid #1A7993;
+    border-radius: 20px;
+}
+
+.content-1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    
+}
+
+p.content-1 {
+    font-size: 15px;
+}
+
+h2.content-1 {
+    font-size: 50px;
+    line-height: 60.2px;
+}
+
+button.content-1 {
+    font-size: 20px;
+    background-color: #1A7993;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Oswald';
+    padding: 20px;
+    margin-top: 25px;
+    width: 60%;
+    
+}
+
+button.content-1:hover{
+    background-color: #2C2F37;
+}
+
+.segunda-sessao{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 35px;
+    line-height: 34px;
+} 
+
+.segunda-sessao-grid{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
+.cards-grid{
+    background-color: #2C2F37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.cards-grid:hover{
+    background-color: #1A7993;
+}
+
+.terceira-sessao{
+    background-color: #1A7993;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 250px;
+}
+
+.terceira-sessao-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+h2.terceira-sessao-left{
+    font-size: 35px;
+}
+
+p.terceira-sessao-left{
+    font-size: 25px;
+}
+
+button.terceira-sessao-left{
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Oswald';
+    padding: 20px;
+    margin-top: 25px;
+    align-items: center;
+    width: 60%;
+}
+
+button.terceira-sessao-left:hover{
+    background-color: #15161B;
+    color: white;
+}
+
+
+img.terceira-sessao-right{
+    height: 400px;
+    margin-left: 200px;
+}
+
+.quarta-sessao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+}
+
+h2.quarta-sessao{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+input.quarta-sessao{
+    width: 528px;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+button.quarta-sessao{
+    width: 97%;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #1A7993;
+    color: white;
+    border: none;
+}
+
+button.quarta-sessao:hover{
+    background-color: #2C2F37;
+}
+
+footer{
+    margin-top: 250px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-redes{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img:hover{
+    transition: .2s;
+    transform: scale(1.1);
+}
